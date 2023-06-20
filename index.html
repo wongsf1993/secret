@@ -8,11 +8,21 @@
 <link rel="stylesheet" href="Happy%20Birthday_files/bootstrap.css"><link rel="stylesheet" href="Happy%20Birthday_files/style.css"></head>
 
 <body data-gr-c-s-loaded="true">
-    <audio class="song" controls="controls" loop="">
+    <div class="container">
+        <div class="row">
+            <div class="loader">
+                <div class="col-12 col-xl-6 mx-auto text-center">
+                    <img style="max-width:300px; margin-top:150px;" src="Happy%20Birthday_files/img0.jpg" alt="">
+                </div>
+                <button id="play">惊(不惊)喜？！</button>
+            </div>
+        </div>
+    </div>
+    <audio class="song" controls autoplay loop>
         <source src="Happy%20Birthday_files/music.mp3">
-        
         Your browser isn't invited for super fun audio time.
     </audio>
+    
 
     <canvas id="confetti" width="438" height="726"></canvas>
 
